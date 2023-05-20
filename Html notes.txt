@@ -1,0 +1,862 @@
+Learn HTML Using Notepad or TextEdit
+Web pages can be created and modified by using professional HTML editors.
+
+However, for learning HTML we recommend a simple text editor like Notepad (PC) or TextEdit (Mac).
+
+We believe that using a simple text editor is a good way to learn HTML.
+
+Follow the steps below to create your first web page with Notepad or TextEdit.
+HTML Documents
+All HTML documents must start with a document type declaration: <!DOCTYPE html>.
+
+The HTML document itself begins with <html> and ends with </html>.
+
+The visible part of the HTML document is between <body> and </body>.
+
+How to View HTML Source
+Have you ever seen a Web page and wondered "Hey! How did they do that?"
+
+View HTML Source Code:
+Right-click in an HTML page and select "View Page Source" (in Chrome) or "View Source" (in Edge), or similar in other browsers. This will open a window containing the HTML source code of the page.
+
+Inspect an HTML Element:
+Right-click on an element (or a blank area), and choose "Inspect" or "Inspect Element" to see what elements are made up of (you will see both the HTML and the CSS). You can also edit the HTML or CSS on-the-fly in the Elements or Styles panel that opens.
+
+HTML Tag Reference
+W3Schools' tag reference contains additional information about these tags and their attributes.
+
+Tag	Description
+<html>	Defines the root of an HTML document
+<body>	Defines the document's body
+<h1> to <h6>	Defines HTML headings
+
+Chapter Summary
+All HTML elements can have attributes
+The href attribute of <a> specifies the URL of the page the link goes to
+The src attribute of <img> specifies the path to the image to be displayed
+The width and height attributes of <img> provide size information for images
+The alt attribute of <img> provides an alternate text for an image
+The style attribute is used to add styles to an element, such as color, font, size, and more
+The lang attribute of the <html> tag declares the language of the Web page
+The title attribute defines some extra information about an element
+
+
+Tag	Description
+<p>	Defines a paragraph
+<hr>	Defines a thematic change in the content
+<br>	Inserts a single line break
+<pre>	Defines pre-formatted text
+
+Styles:
+Chapter Summary
+Use the style attribute for styling HTML elements
+Use background-color for background color
+Use color for text colors
+Use font-family for text fonts
+Use font-size for text sizes
+Use text-align for text alignment
+
+HTML Formatting Elements
+Formatting elements were designed to display special types of text:
+
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+
+
+HTML Text Formatting Elements
+Tag	Description
+<b>	Defines bold text
+<em>	Defines emphasized text 
+<i>	Defines a part of text in an alternate voice or mood
+<small>	Defines smaller text
+<strong>	Defines important text
+<sub>	Defines subscripted text
+<sup>	Defines superscripted text
+<ins>	Defines inserted text
+<del>	Defines deleted text
+<mark>	Defines marked/highlighted text
+
+
+HTML Quotation and Citation Elements
+In this chapter we will go through the <blockquote>,<q>, <abbr>, <address>, <cite>, and <bdo> HTML elements.
+
+HTML Quotation and Citation Elements
+Tag	Description
+<abbr>	Defines an abbreviation or acronym
+<address>	Defines contact information for the author/owner of a document
+<bdo>	Defines the text direction
+<blockquote>	Defines a section that is quoted from another source
+<cite>	Defines the title of a work
+<q>	Defines a short inline quotation
+
+HTML Comment Tag
+You can add comments to your HTML source by using the following syntax:
+
+<!-- Write your comments here -->
+Notice that there is an exclamation point (!) in the start tag, but not in the end tag.
+
+HTML Colors
+HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.
+
+Color Names
+In HTML, a color can be specified by using a color name
+
+HTML RGB and RGBA Colors
+An RGB color value represents RED, GREEN, and BLUE light sources.
+
+An RGBA color value is an extension of RGB with an Alpha channel (opacity).
+
+RGB Color Values
+In HTML, a color can be specified as an RGB value, using this formula:
+
+rgb(red, green, blue)
+
+Using CSS
+CSS can be added to HTML documents in 3 ways:
+
+Inline - by using the style attribute inside HTML elements
+Internal - by using a <style> element in the <head> section
+External - by using a <link> element to link to an external CSS file
+Internal CSS
+An internal CSS is used to define a style for a single HTML page.
+
+An internal CSS is defined in the <head> section of an HTML page, within a <style> element.
+
+The following example sets the text color of ALL the <h1> elements (on that page) to blue, and the text color of ALL the <p> elements to red. In addition, the page will be displayed with a "powderblue" background color: 
+
+
+Chapter Summary
+Use the <a> element to define a link
+Use the href attribute to define the link address
+Use the target attribute to define where to open the linked document
+Use the <img> element (inside <a>) to use an image as a link
+Use the mailto: scheme inside the href attribute to create a link that opens the user's email program
+
+Create a Bookmark in HTML
+Bookmarks can be useful if a web page is very long.
+
+To create a bookmark - first create the bookmark, then add a link to it.
+
+When the link is clicked, the page will scroll down or up to the location with the bookmark.
+Chapter Summary
+Use the id attribute (id="value") to define bookmarks in a page
+Use the href attribute (href="#value") to link to the bookmark
+
+
+Images:
+
+Images can improve the design and the appearance of a web page.
+
+HTML Images Syntax
+The HTML <img> tag is used to embed an image in a web page.
+
+Images are not technically inserted into a web page; images are linked to web pages. The <img> tag creates a holding space for the referenced image.
+
+The <img> tag is empty, it contains attributes only, and does not have a closing tag.
+
+The <img> tag has two required attributes:
+
+src - Specifies the path to the image
+alt - Specifies an alternate text for the image
+The alt Attribute
+The required alt attribute provides an alternate text for an image, if the user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader).
+
+The value of the alt attribute should describe the image:
+
+Chapter Summary
+Use the HTML <img> element to define an image
+Use the HTML src attribute to define the URL of the image
+Use the HTML alt attribute to define an alternate text for an image, if it cannot be displayed
+Use the HTML width and height attributes or the CSS width and height properties to define the size of the image
+Use the CSS float property to let the image float to the left or to the right
+
+
+Abbreviation	File Format	File Extension
+APNG	Animated Portable Network Graphics	.apng
+GIF	Graphics Interchange Format	.gif
+ICO	Microsoft Icon	.ico, .cur
+JPEG	Joint Photographic Expert Group image	.jpg, .jpeg, .jfif, .pjpeg, .pjp
+PNG	Portable Network Graphics	.png
+SVG	Scalable Vector Graphics	.svg
+
+HTML Image Tags
+Tag	Description
+<img>	Defines an image
+<map>	Defines an image map
+<area>	Defines a clickable area inside an image map
+<picture>	Defines a container for multiple image resources
+The HTML <map> tag defines an image map. An image map is an image with clickable areas. The areas are defined with one or more <area> tags.
+
+Try to click on the computer, phone, or the cup of coffee in the image below
+ 
+ reside evil  after 2010
+
+HTML Image Tags
+Tag	Description
+<img>	Defines an image
+<map>	Defines an image map
+<area>	Defines a clickable area inside an image map
+<picture>	Defines a container for multiple image resources
+A favicon is a small image displayed next to the page title in the browser tab.
+
+How To Add a Favicon in HTML
+You can use any image you like as your favicon. You can also create your own favicon on sites like https://www.favicon.cc.
+
+A favicon is a small image displayed next to the page title in the browser tab.
+
+How To Add a Favicon in HTML
+You can use any image you like as your favicon. You can also create your own favicon on sites like https://www.favicon.cc.
+
+To add a favicon to your website, either save your favicon image to the root directory of your webserver, or create a folder in the root directory called images, and save your favicon image in this folder. A common name for a favicon image is "favicon.ico".
+
+Next, add a <link> element to your "index.html" file, after the <title> element, like this:
+
+
+Favicon File Format Support
+The following table shows the file format support for a favicon image:
+
+Browser	ICO	PNG	GIF	JPEG	SVG
+Edge	Yes	Yes	Yes	Yes	Yes
+Chrome	Yes	Yes	Yes	Yes	Yes
+Firefox	Yes	Yes	Yes	Yes	Yes
+Opera	Yes	Yes	Yes	Yes	Yes
+Safari	Yes	Yes	Yes	Yes	Yes
+
+Use the HTML <link> element to insert a favicon
+
+
+HTML Table Tags
+Tag	Description
+<table>	Defines a table
+<th>	Defines a header cell in a table
+<tr>	Defines a row in a table
+<td>	Defines a cell in a table
+<caption>	Defines a table caption
+<colgroup>	Specifies a group of one or more columns in a table for formatting
+<col>	Specifies column properties for each column within a <colgroup> element
+<thead>	Groups the header content in a table
+<tbody>	Groups the body content in a table
+<tfoot>	Groups the footer content in a table
+
+Collapsed Table Borders
+To avoid having double borders like in the example above, set the CSS border-collapse property to collapse.
+
+This will make the borders collapse into a single border:
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+Style Table Borders
+If you set a background color of each cell, and give the border a white color (the same as the document background), 
+you get the impression of an invisible border:
+th, td {
+  background-color: #96D4D4;
+}
+
+
+Round Table Borders
+With the border-radius property, the borders get rounded corners:
+table, th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+Skip the border around the table by leaving out table from the css selector:
+th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+Dotted Table Borders
+With the border-style property, you can set the appearance of the border.
+th, td {
+  border-style: dotted;
+}
+Border Color
+With the border-color property, you can set the color of the border.
+th, td {
+  border-color: #96D4D4;
+}
+
+
+HTML Table Sizes
+HTML tables can have different sizes for each column, row or the entire table.
+
+HTML Table Column Width
+To set the size of a specific column, add the style attribute on a <th> or <td> element:
+
+Example
+Set the width of the first column to 70%:
+<table style="width:100%">
+  <tr>
+    <th style="width:70%">Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  </table>
+  
+  HTML Table Row Height
+  To set the height of a specific row, add the style attribute on a table row element:
+  Example
+Set the height of the second row to 200 pixels:
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr style="height:200px">
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  </table>
+  
+  HTML Table Headers
+HTML tables can have headers for each column or row, or for many columns/rows.
+
+<table>
+  <tr>
+    <th>Firstname</th>
+	</tr>
+	</table>
+	
+	
+Vertical Table Headers
+To use the first column as table headers, define the first cell in each row as a <th> element:
+Align Table Headers
+By default, table headers are bold and centered:
+Align Table Headers
+By default, table headers are bold and centered:
+th {
+  text-align: left;
+}
+ 
+Header for Multiple Columns
+You can have a header that spans over two or more columns.
+
+To do this, use the colspan attribute on the <th> element:
+<table>
+  <tr>
+    <th colspan="2">Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table> 
+Table Caption
+You can add a caption that serves as a heading for the entire table.
+To add a caption to a table, use the <caption> tag:
+
+HTML Table - Cell Padding
+Cell padding is the space between the cell edges and the cell content.
+
+By default the padding is set to 0.
+
+To add padding on table cells, use the CSS padding property:
+th, td {
+  padding: 15px;
+}
+To add padding only above the content, use the padding-top property.
+
+And the others sides with the padding-bottom, padding-left, and padding-right properties:
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+HTML Table - Cell Spacing
+Cell spacing is the space between each cell.
+
+By default the space is set to 2 pixels.
+
+To change the space between table cells, use the CSS border-spacing property on the table element:
+
+Example
+table {
+  border-spacing: 30px;
+}
+
+
+HTML Table Colspan & Rowspan
+HTML tables can have cells that span over multiple rows and/or columns.
+
+HTML Table - Colspan
+To make a cell span over multiple columns, use the colspan attribute:
+
+HTML Table - Rowspan
+To make a cell span over multiple rows, use the rowspan attribute:
+
+HTML Table Styling
+Use CSS to make your tables look better.
+
+HTML Table - Zebra Stripes
+If you add a background color on every other table row, you will get a nice zebra stripes effect.
+To style every other table row element, use the :nth-child(even) selector like this:
+Example
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+
+HTML Table - Vertical Zebra Stripes
+
+Set the :nth-child(even) for table data elements like this:
+Example
+td:nth-child(even), th:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+Combine Vertical and Horizontal Zebra Stripes
+You can combine the styling from the two examples above and you will have stripes on every other row and every other column.
+
+If you use a transparent color you will get an overlapping effect.
+
+Use an rgba() color to specify the transparency of the color:
+Example
+tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+Horizontal Dividers
+
+If you specify borders only at the bottom of each table row, you will have a table with horizontal dividers.
+
+Add the border-bottom property to all tr elements to get horizontal dividers:
+Example
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+Hoverable Table
+Use the :hover selector on tr to highlight table rows on mouse over:
+
+Example
+tr:hover {background-color: #D6EEEE;}
+
+
+HTML Table Colgrou
+p
+The <colgroup> element is used to style specific columns of a table.
+
+HTML Table Colgroup
+If you want to style the two first columns of a table, use the <colgroup> and <col> elements.
+The <colgroup> element should be used as a container for the column specifications.
+
+Each group is specified with a <col> element.
+
+The span attribute specifies how many columns that get the style.
+
+The style attribute specifies the style to give the columns.
+
+Legal CSS Properties
+There is only a very limited selection of CSS properties that are allowed to be used in the colgroup:
+
+width property
+visibility property
+background properties
+border properties
+
+All other CSS properties will have no effect on your tables.
+
+Multiple Col Elements
+If you want to style more columns with different styles, use more <col> elements inside the <colgroup>
+
+Empty Colgroups
+If you want to style columns in the middle of a table, insert a "empty" <col> element (with no styles) for the columns before:
+
+Hide Columns
+You can hide columns with the visibility: collapse property:
+
+
+HTML Lists
+
+HTML lists allow web developers to group a set of related items in lists.
+
+Unordered HTML List
+An unordered list starts with the <ul> tag. Each list item starts with the <li> tag.
+
+The list items will be marked with bullets (small black circles) by default:
+
+Example
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+
+Ordered HTML List
+An ordered list starts with the <ol> tag. Each list item starts with the <li> tag.
+
+The list items will be marked with numbers by default:
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+HTML Description Lists
+HTML also supports description lists.
+
+A description list is a list of terms, with a description of each term.
+
+The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term:
+
+Example
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+
+HTML List Tags
+Tag	Description
+<ul>	Defines an unordered list
+<ol>	Defines an ordered list
+<li>	Defines a list item
+<dl>	Defines a description list
+<dt>	Defines a term in a description list
+<dd>	Describes the term in a description list
+
+HTML Unordered Lists
+The HTML <ul> tag defines an unordered (bulleted) list.
+
+Unordered HTML List
+An unordered list starts with the <ul> tag. Each list item starts with the <li> tag.
+
+The list items will be marked with bullets (small black circles) by default:
+Example
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+Unordered HTML List - Choose List Item Marker
+The CSS list-style-type property is used to define the style of the list item marker. It can have one of the following values:
+
+Value	Description
+disc	Sets the list item marker to a bullet (default)
+circle	Sets the list item marker to a circle
+square	Sets the list item marker to a square
+none	The list items will not be marked
+
+Example - Disc
+<ul style="list-style-type:disc;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+Example - Circle
+<ul style="list-style-type:circle;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+Example - Square
+<ul style="list-style-type:square;">
+  <li>Coffee</li>
+  <li>Tea</li>
+   <li>Milk</li>
+</ul>
+  Example - None
+<ul style="list-style-type:none;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+Nested HTML Lists
+Lists can be nested (list inside list):
+
+Example
+<ul>
+  <li>Coffee</li>
+  <li>Tea
+    <ul>
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </ul>
+  </li>
+  <li>Milk</li>
+</ul>
+
+Horizontal List with CSS
+HTML lists can be styled in many different ways with CSS.
+
+One popular way is to style a list horizontally, to create a navigation menu:
+
+Chapter Summary
+Use the HTML <ul> element to define an unordered list
+Use the CSS list-style-type property to define the list item marker
+Use the HTML <li> element to define a list item
+Lists can be nested
+List items can contain other HTML elements
+Use the CSS property float:left to display a list horizontally
+HTML List Tags
+Tag	Description
+<ul>	Defines an unordered list
+<ol>	Defines an ordered list
+<li>	Defines a list item
+<dl>	Defines a description list
+<dt>	Defines a term in a description list
+<dd>	Describes the term in a description list
+
+HTML Ordered Lists
+The HTML <ol> tag defines an ordered list. An ordered list can be numerical or alphabetical.
+
+Ordered HTML List
+An ordered list starts with the <ol> tag. Each list item starts with the <li> tag.
+
+The list items will be marked with numbers by default:
+
+Example
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+Ordered HTML List - The Type Attribute
+The type attribute of the <ol> tag, defines the type of the list item marker:
+
+Type	Description
+type="1"	The list items will be numbered with numbers (default)
+type="A"	The list items will be numbered with uppercase letters
+type="a"	The list items will be numbered with lowercase letters
+type="I"	The list items will be numbered with uppercase roman numbers
+type="i"	The list items will be numbered with lowercase roman numbers
+Numbers:
+<ol type="1">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+Uppercase Letters:
+<ol type="A">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+Lowercase Letters:
+<ol type="a">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+Uppercase Roman Numbers:
+<ol type="I">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+Lowercase Roman Numbers:
+<ol type="i">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+Control List Counting
+By default, an ordered list will start counting from 1. If you want to start counting from a specified number, you can use the start attribute:
+
+Example
+<ol start="50">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+Nested HTML Lists
+Lists can be nested (list inside list):
+
+Example
+<ol>
+  <li>Coffee</li>
+  <li>Tea
+    <ol>
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </ol>
+  </li>
+  <li>Milk</li>
+</ol>
+
+HTML Other Lists
+HTML also supports description lists.
+
+HTML Description Lists
+A description list is a list of terms, with a description of each term.
+
+The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term:
+
+Example
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+Chapter Summary
+Use the HTML <dl> element to define a description list
+Use the HTML <dt> element to define the description term
+Use the HTML <dd> element to describe the term in a description list
+
+
+HTML Block and Inline Elements
+A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+
+Two commonly used block elements are: <p> and <div>.
+
+The <p> element defines a paragraph in an HTML document.
+
+The <div> element defines a division or a section in an HTML document.
+
+Inline Elements
+An inline element does not start on a new line.
+
+An inline element only takes up as much width as necessary.
+
+This is a <span> element inside a paragraph.
+
+Example
+<span>Hello World</span>
+Chapter Summary
+There are two display values: block and inline
+A block-level element always starts on a new line and takes up the full width available
+An inline element does not start on a new line and it only takes up as much width as necessary
+The <div> element is a block-level and is often used as a container for other HTML elements
+The <span> element is an inline container used to mark up a part of a text, or a part of a document
+
+HTML Tags
+Tag	Description
+<div>	Defines a section in a document (block-level)
+<span>	Defines a section in a document (inline)
+
+HTML class Attribute
+Chapter Summary
+The HTML class attribute specifies one or more class names for an element
+Classes are used by CSS and JavaScript to select and access specific elements
+The class attribute can be used on any HTML element
+The class name is case sensitive
+Different HTML elements can point to the same class name
+JavaScript can access elements with a specific class name with the getElementsByClassName() method
+
+HTML id Attribute
+Chapter Summary
+The id attribute is used to specify a unique id for an HTML element
+The value of the id attribute must be unique within the HTML document
+The id attribute is used by CSS and JavaScript to style/select a specific element
+The value of the id attribute is case sensitive
+The id attribute is also used to create HTML bookmarks
+JavaScript can access an element with a specific id with the getElementById() method	
+
+HTML Iframes
+An HTML iframe is used to display a web page within a web page.
+
+Chapter Summary
+The HTML <iframe> tag specifies an inline frame
+The src attribute defines the URL of the page to embed
+Always include a title attribute (for screen readers)
+The height and width attributes specify the size of the iframe
+Use border:none; to remove the border around the iframe
+
+HTML - The Head Element
+
+hapter Summary
+The <head> element is a container for metadata (data about data)
+The <head> element is placed between the <html> tag and the <body> tag
+The <title> element is required and it defines the title of the document
+The <style> element is used to define style information for a single document
+The <link> tag is most often used to link to external style sheets
+The <meta> element is typically used to specify the character set, page description, keywords, author of the document, and viewport settings
+The <script> element is used to define client-side JavaScripts
+The <base> element specifies the base URL and/or target for all relative URLs in a page
+
+
+HTML Layout Elements
+
+HTML has several semantic elements that define the different parts of a web page:
+
+HTML5 Semantic Elements	
+<header> - Defines a header for a document or a section
+<nav> - Defines a set of navigation links
+<section> - Defines a section in a document
+<article> - Defines an independent, self-contained content
+<aside> - Defines content aside from the content (like a sidebar)
+<footer> - Defines a footer for a document or a section
+<details> - Defines additional details that the user can open and close on demand
+<summary> - Defines a heading for the <details> element
+You can read more about semantic elements in our HTML Semantics chapter.
+
+HTML Semantic Elements
+Semantic elements = elements with a meaning.
+
+What are Semantic Elements?
+A semantic element clearly describes its meaning to both the browser and the developer.
+
+Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+
+Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
+
+Semantic Elements in HTML
+Many web sites contain HTML code like: <div id="nav"> <div class="header"> <div id="footer"> to indicate navigation, header, and footer.
+
+In HTML there are some semantic elements that can be used to define different parts of a web page:  
+
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+
+HTML Form Elements
+Tag	Description
+<form>	Defines an HTML form for user input
+<input>	Defines an input control
+<textarea>	Defines a multiline input control (text area)
+<label>	Defines a label for an <input> element
+<fieldset>	Groups related elements in a form
+<legend>	Defines a caption for a <fieldset> element
+<select>	Defines a drop-down list
+<optgroup>	Defines a group of related options in a drop-down list
+<option>	Defines an option in a drop-down list
+<button>	Defines a clickable button
+<datalist>	Specifies a list of pre-defined options for input controls
+<output>	Defines the result of a calculation
+I have a small doubt about that fundamental IT Can you unlock fundamental course because I already know so is it possible
+
+invite code-KXWJ
